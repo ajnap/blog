@@ -1,0 +1,52 @@
+---
+title: "Welcome to My Portfolio"
+---
+
+::: {.hero-banner .text-center}
+
+<img src="images/profile.jpg" alt="Alex Napierski - Professional Photo" class="rounded-circle mb-3" width="160">
+
+<h1>Alex Napierski</h1>
+
+<p class="lead mb-3">Strategic Management Student | Healthcare Innovation | Learner</p>
+
+<p class="hero-tagline">∙ Aspiring Leader & Entrepreneur ∙ Dedicated to do something exciting & important ∙</p>
+
+<div class="hero-social">
+  <a href="https://www.linkedin.com/in/alex-napierski/" class="btn btn-outline-primary btn-sm" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://github.com/ajnap" class="btn btn-outline-primary btn-sm" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+</div>
+
+<div class="contact-buttons">
+  <a href="mailto:ajnap3@byu.edu" class="btn-contact">
+    <i class="fas fa-envelope"></i> ajnap3@byu.edu
+  </a>
+</div>
+
+:::
+
+<hr class="section-divider">
+
+## Featured Projects
+
+::: {.card}
+
+<div class="card-header">
+  <h3><i class="fas fa-heart-pulse"></i> Featured Project</h3>
+</div>
+
+### [Healthy Student Planner](projects/project-1.qmd)
+A comprehensive student planner that combines academic organization with wellness tracking, helping students maintain both academic success and healthy habits.
+
+<div class="mt-3">
+  <span class="badge bg-primary">JavaScript</span>
+  <span class="badge bg-secondary">Health Tech</span>
+  <span class="badge bg-success">Productivity</span>
+</div>
+
+:::
+
