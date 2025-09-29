@@ -4,7 +4,7 @@ title: "Contact"
 
 ::: {.contact-hero}
 <h1>Connect with Our Family</h1>
-<p class="lead">Questions about large family life? Want to share your own parenting moments? We'd love to hear from you!</p>
+<p class="lead">Questions about our learning journey? Want to share your own parenting experiences? We'd love to connect and learn together!</p>
 :::
 
 ::: {.contact-container}
@@ -13,7 +13,7 @@ title: "Contact"
 ::: {.contact-info}
 ### <i class="fas fa-heart"></i> Let's Connect
 
-Whether you have questions about managing a large family, want to share your own parenting story, or have ideas for future blog posts, we love connecting with other families on this beautiful, chaotic journey.
+Whether you have questions about our learning journey with a large family, want to share your own parenting victories or challenges, or have ideas for future posts, we love connecting with other families who are growing and learning together.
 
 ::: {.contact-methods}
 ::: {.contact-method}

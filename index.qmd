@@ -24,8 +24,8 @@ title: "The Next 5 Minutes"
 
 <div class="hero-content">
 <h1 class="hero-title">The Next 5 Minutes</h1>
-<p class="hero-tagline">Finding joy in the beautiful chaos of raising 12 children.</p>
-<p class="hero-subtitle">Small moments. Big hearts. Present parenting.</p>
+<p class="hero-tagline">Sharing our journey of learning and growing while raising 12 children.</p>
+<p class="hero-subtitle">Learning from every triumph and mistake along the way.</p>
 
 <div class="hero-buttons">
 <a href="blog.qmd" class="btn btn-primary btn-lg">
@@ -50,6 +50,7 @@ title: "The Next 5 Minutes"
 
 <div class="blog-grid">
 <div class="blog-card">
+<img src="images/dad-beach.jpg" alt="Dad playing at the beach" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-sparkles"></i> There Are Sprinkles Glued to My Custom Table</h3>
 <span class="blog-date">Coming Soon</span>
@@ -63,6 +64,7 @@ title: "The Next 5 Minutes"
 </div>
 
 <div class="blog-card">
+<img src="images/family-niagrafalls.jpg" alt="Family at Niagara Falls" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-heart"></i> "You're Missing Making a Memory"</h3>
 <span class="blog-date">Coming Soon</span>
@@ -76,6 +78,7 @@ title: "The Next 5 Minutes"
 </div>
 
 <div class="blog-card">
+<img src="images/dad-snowman.jpg" alt="Dad building snowman" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-question-circle"></i> Why Do I Say Yes?</h3>
 <span class="blog-date">Coming Soon</span>

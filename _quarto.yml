@@ -34,7 +34,7 @@ format:
             <div class="footer-content">
               <div class="footer-section">
                 <h4><i class="fas fa-home"></i> The Next 5 Minutes</h4>
-                <p>Finding joy in the beautiful chaos of raising 12 children. Real stories from real parents about small moments that matter most.</p>
+                <p>Sharing our journey of learning and growing while raising 12 children. Real stories of both our successes and failures in family life.</p>
                 <div class="social-links">
                   <a href="#" target="_blank" class="social-link" aria-label="Instagram">
                     <i class="fab fa-instagram"></i>
@@ -61,7 +61,7 @@ format:
 
               <div class="footer-section">
                 <h4><i class="fas fa-heart"></i> Connect with Our Family</h4>
-                <p>Questions about large family life? Want to share your own parenting moments? We love connecting with other families.</p>
+                <p>Questions about our learning journey? Want to share your own parenting experiences? We love connecting with families who are growing and learning together.</p>
                 <ul>
                   <li><a href="mailto:hello@thenext5minutes.com">hello@thenext5minutes.com</a></li>
                   <li><a href="contact.qmd">Share Your Story</a></li>
