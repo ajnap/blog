@@ -3,32 +3,22 @@ project:
   output-dir: _site
 
 website:
-  title: "Alex Napierski - Portfolio"
+  title: "The Next 5 Minutes"
   favicon: images/favicon.png
   navbar:
     background: light
-    title: "Alex Napierski"
+    title: "The Next 5 Minutes"
     left:
       - href: index.qmd
         text: Home
-      - href: aboutme.qmd
-        text: About Me
-      - href: about.qmd
-        text: Resume
-      - text: Projects
-        menu:
-          - href: projects/project-1.qmd
-            text: Healthy Student Planner
-          #- href: projects/project-2.qmd
-          #  text: Business Case Presentation
-          #- href: projects/project-3.qmd
-          #  text: Project 3
-          #- href: projects/project-4.qmd
-          #  text: Project 4
-          #- href: projects/project-5.qmd
-          #  text: Project 5
-          #- href: projects/project-6.qmd
-          #  text: Project 6
+      - href: blog.qmd
+        text: Blog
+      - href: authors.qmd
+        text: About the Authors
+      - href: parenting-app.qmd
+        text: Parenting App
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
@@ -38,3 +28,48 @@ format:
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    include-after-body:
+      - text: |
+          <footer class="site-footer">
+            <div class="footer-content">
+              <div class="footer-section">
+                <h4><i class="fas fa-home"></i> The Next 5 Minutes</h4>
+                <p>Finding joy in the beautiful chaos of raising 12 children. Real stories from real parents about small moments that matter most.</p>
+                <div class="social-links">
+                  <a href="#" target="_blank" class="social-link" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" target="_blank" class="social-link" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <a href="mailto:hello@thenext5minutes.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="footer-section">
+                <h4><i class="fas fa-sitemap"></i> Explore</h4>
+                <ul>
+                  <li><a href="index.qmd">Home</a></li>
+                  <li><a href="blog.qmd">Family Stories</a></li>
+                  <li><a href="authors.qmd">Meet Zac & Kathryn</a></li>
+                  <li><a href="parenting-app.qmd">Parenting App</a></li>
+                  <li><a href="contact.qmd">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-section">
+                <h4><i class="fas fa-heart"></i> Connect with Our Family</h4>
+                <p>Questions about large family life? Want to share your own parenting moments? We love connecting with other families.</p>
+                <ul>
+                  <li><a href="mailto:hello@thenext5minutes.com">hello@thenext5minutes.com</a></li>
+                  <li><a href="contact.qmd">Share Your Story</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              <p>&copy; 2025 The Next 5 Minutes. All rights reserved. | Made with love by the Napierski Family.</p>
+            </div>
+          </footer>

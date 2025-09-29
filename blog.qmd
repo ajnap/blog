@@ -1,0 +1,141 @@
+---
+title: "Blog"
+---
+
+::: {.blog-header}
+<h1>Stories from Our Family</h1>
+<p class="lead">Real moments from real parents raising 12 children - bite-sized wisdom for your next 5 minutes.</p>
+:::
+
+::: {.blog-container}
+
+::: {.blog-grid}
+::: {.blog-card}
+![Dad playing at the beach](images/dad-beach.jpg){.blog-image alt="Dad playing at the beach"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-sparkles"></i> There Are Sprinkles Glued to My Custom Table
+**Coming Soon** {.blog-date}
+:::
+
+There are sprinkles glued on my custom built table for 14 because we love to do arts and crafts. There's old tape on my walls because we decorate with crepe paper for birthdays. Sometimes we need to realize that a messy life is proof that we tried, we created, we loved, we lived!
+
+::: {.blog-tags}
+[Embracing Mess]{.tag} [Creativity]{.tag} [Real Life]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+
+::: {.blog-card}
+![Family at Niagara Falls](images/family-niagarafalls.jpg){.blog-image alt="Family at Niagara Falls"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-heart"></i> "You're Missing Making a Memory"
+**Coming Soon** {.blog-date}
+:::
+
+Making lasagna when the spirit prompted me "you're missing making a memory." Calling to the children I said, "who wants to make lasagna?" Cheese and sauce and noodles flew everywhere. It was messy, it was a memory-making dinner.
+
+::: {.blog-tags}
+[Memory Making]{.tag} [Presence]{.tag} [Kitchen Chaos]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+
+::: {.blog-card}
+![Dad building snowman](images/dad-snowman.jpg){.blog-image alt="Dad building snowman"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-question-circle"></i> Why Do I Say Yes?
+**Coming Soon** {.blog-date}
+:::
+
+We have grated cheese in the fridge. Michael wanted to open a new cheese and grate it himself. Reason says no, but giving kids experience says yes. The beautiful tension between efficiency and growth.
+
+::: {.blog-tags}
+[Saying Yes]{.tag} [Independence]{.tag} [Learning]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+
+::: {.blog-card}
+![Family in New York](images/family-newyork.jpg){.blog-image alt="Family in New York"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-suitcase"></i> Knott's Game While Waiting in Line
+**Coming Soon** {.blog-date}
+:::
+
+Travel tips that actually work with 12 kids: frozen gogurts for coolers, involving kids in packing, and the games that save your sanity during long waits. Real solutions for real families.
+
+::: {.blog-tags}
+[Travel Tips]{.tag} [Large Family]{.tag} [Practical Wisdom]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+
+::: {.blog-card}
+![Dad at the pool](images/dad-pool.jpg){.blog-image alt="Dad at the pool"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-home"></i> The Dirtier the Shirt, the Better
+**Coming Soon** {.blog-date}
+:::
+
+The dirtier the shirt at the end of the day the better—it shows we lived, we learned, we made mistakes, we loved each moment. A love letter to the beautiful mess of childhood.
+
+::: {.blog-tags}
+[Childhood]{.tag} [Perspective]{.tag} [Growth]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+
+::: {.blog-card}
+![Family stake photo](images/family-stake.jpg){.blog-image alt="Family stake photo"}
+
+::: {.blog-content}
+::: {.blog-card-header}
+### <i class="fas fa-phone-slash"></i> Being at the Crossroads
+**Coming Soon** {.blog-date}
+:::
+
+Being at the crossroads for my children has different meaning to me than 10 years ago. It used to be physically present, now it's mentally present—not on phone, emails, media. The evolution of intentional parenting.
+
+::: {.blog-tags}
+[Intentional Parenting]{.tag} [Presence]{.tag} [Technology]{.tag}
+:::
+
+[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
+:::
+:::
+:::
+
+:::
+
+::: {.newsletter-signup}
+::: {.newsletter-container}
+### <i class="fas fa-heart"></i> Join Our Family
+
+Get weekly stories and parenting insights delivered to your inbox. Real moments from our family to yours.
+
+::: {.signup-form}
+<input type="email" placeholder="Enter your email for family stories" class="email-input">
+<button type="submit" class="subscribe-btn">Join Us</button>
+:::
+:::
+:::

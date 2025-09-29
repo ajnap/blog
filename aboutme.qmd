@@ -8,24 +8,28 @@ title: "About Me"
 
 <h1>Alex Napierski</h1>
 
-<p class="lead">Strategic Thinker | Global Explorer | Adventure Enthusiast</p>
+<p class="lead">Adventure Seeker | Mindful Explorer | Creator of The Next 5 Minutes</p>
 
-<p class="hero-tagline">∙ Bringing diverse perspectives to business challenges ∙</p>
+<p class="hero-tagline">∙ Finding peace in the pause between adventures ∙</p>
 
 :::
 
 <hr class="section-divider">
 
-## Beyond the Classroom 🌍
+## Why "The Next 5 Minutes"? 🌍
 
 ::: {.card}
 <div class="card-header">
-  <h3><i class="fas fa-mountain"></i> A Different Perspective on Leadership</h3>
+  <h3><i class="fas fa-clock"></i> Born from Adventure and Reflection</h3>
 </div>
 
-While I'm passionate about strategic management and healthcare innovation, I've always believed that some of the best learning happens outside the classroom. I love seeking out new challenges and experiences that push me to grow, whether that's academically, personally, or just for the pure adventure of it.
+Hi there! I'm Alex, and I created "The Next 5 Minutes" because I've learned that some of life's most profound moments happen in the spaces between our biggest adventures.
 
-This past summer, I was incredibly fortunate to travel to **9 different countries** studying various health systems and populations. What started as an academic opportunity turned into one of the most eye-opening experiences of my life. I learned so much about different approaches to healthcare, but honestly, the cultural experiences and adventures along the way taught me just as much about myself.
+While my days are filled with strategic management studies, healthcare innovation projects, and planning the next big adventure, I've discovered that the most transformative experiences often come in those quiet 5-minute moments—whether it's catching my breath on a mountain peak, reflecting during a sunset, or simply pausing between meetings to reset my mind.
+
+This past summer, I traveled to **9 different countries** studying health systems, but the moments that changed me most weren't in conference rooms or hospitals. They were in those brief pauses: watching the sunrise over the Swiss Alps, taking five minutes to journal in a Norwegian café, or simply breathing deeply before paragliding off a mountain.
+
+That's what this blog is about—honoring those micro-moments of peace, reflection, and renewal that busy minds like ours often skip over.
 :::
 
 ## International Experiences 🏔️

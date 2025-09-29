@@ -1,51 +1,92 @@
 ---
-title: "Welcome to My Portfolio"
+title: "The Next 5 Minutes"
 ---
 
-::: {.hero-banner .text-center}
+::: {.hero-video-section}
 
-<img src="images/profile.jpg" alt="Alex Napierski - Professional Photo" class="rounded-circle mb-3" width="160">
-
-<h1>Alex Napierski</h1>
-
-<p class="lead mb-3">Strategic Management Student | Healthcare Innovation | Learner</p>
-
-<p class="hero-tagline">∙ Aspiring Leader & Entrepreneur ∙ Dedicated to do something exciting & important ∙</p>
-
-<div class="hero-social">
-  <a href="https://www.linkedin.com/in/alex-napierski/" class="btn btn-outline-primary btn-sm" target="_blank">
-    <i class="fab fa-linkedin"></i> LinkedIn
-  </a>
-  <a href="https://github.com/ajnap" class="btn btn-outline-primary btn-sm" target="_blank">
-    <i class="fab fa-github"></i> GitHub
-  </a>
+<div class="video-container">
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    class="hero-video"
+    aria-label="Relaxing beach waves background video"
+    preload="metadata"
+    poster="images/beach-waves-poster.jpg">
+    <source src="images/beach-waves.mp4" type="video/mp4">
+    <source src="images/beach-waves.webm" type="video/webm">
+    <img src="images/beach-waves-fallback.jpg" alt="Peaceful beach waves" aria-describedby="video-description">
+  </video>
+  <div class="video-overlay"></div>
+  <span id="video-description" class="sr-only">A looping video of gentle ocean waves lapping against a peaceful beach, providing a calming background for the site.</span>
 </div>
 
-<div class="contact-buttons">
-  <a href="mailto:ajnap3@byu.edu" class="btn-contact">
-    <i class="fas fa-envelope"></i> ajnap3@byu.edu
-  </a>
+<div class="hero-content">
+<h1 class="hero-title">The Next 5 Minutes</h1>
+<p class="hero-tagline">Finding joy in the beautiful chaos of raising 12 children.</p>
+<p class="hero-subtitle">Small moments. Big hearts. Present parenting.</p>
+
+<div class="hero-buttons">
+<a href="blog.qmd" class="btn btn-primary btn-lg">
+<i class="fas fa-heart"></i> Read Our Stories
+</a>
+<a href="authors.qmd" class="btn btn-outline-light btn-lg">
+<i class="fas fa-users"></i> Meet Zac & Kathryn
+</a>
+<a href="parenting-app.qmd" class="btn btn-outline-light btn-lg">
+<i class="fas fa-mobile-alt"></i> Parenting App
+</a>
+</div>
 </div>
 
 :::
 
 <hr class="section-divider">
 
-## Featured Projects
+## Recent Stories from Our Family
 
-::: {.card}
+::: {.blog-preview}
 
-<div class="card-header">
-  <h3><i class="fas fa-heart-pulse"></i> Featured Project</h3>
+<div class="blog-grid">
+<div class="blog-card">
+<div class="blog-card-header">
+<h3><i class="fas fa-sparkles"></i> There Are Sprinkles Glued to My Custom Table</h3>
+<span class="blog-date">Coming Soon</span>
+</div>
+<p class="blog-excerpt">There are sprinkles glued on my custom built table for 14 because we love to do arts and crafts. Sometimes we need to realize that a messy life is proof that we tried, we created, we loved, we lived!</p>
+<div class="blog-tags">
+<span class="tag">Embracing Mess</span>
+<span class="tag">Creativity</span>
+<span class="tag">Real Life</span>
+</div>
 </div>
 
-### [Healthy Student Planner](projects/project-1.qmd)
-A comprehensive student planner that combines academic organization with wellness tracking, helping students maintain both academic success and healthy habits.
+<div class="blog-card">
+<div class="blog-card-header">
+<h3><i class="fas fa-heart"></i> "You're Missing Making a Memory"</h3>
+<span class="blog-date">Coming Soon</span>
+</div>
+<p class="blog-excerpt">Making lasagna when the spirit prompted me "you're missing making a memory." Calling to the children I said, "who wants to make lasagna?" It was messy, it was a memory-making dinner.</p>
+<div class="blog-tags">
+<span class="tag">Memory Making</span>
+<span class="tag">Presence</span>
+<span class="tag">Kitchen Chaos</span>
+</div>
+</div>
 
-<div class="mt-3">
-  <span class="badge bg-primary">JavaScript</span>
-  <span class="badge bg-secondary">Health Tech</span>
-  <span class="badge bg-success">Productivity</span>
+<div class="blog-card">
+<div class="blog-card-header">
+<h3><i class="fas fa-question-circle"></i> Why Do I Say Yes?</h3>
+<span class="blog-date">Coming Soon</span>
+</div>
+<p class="blog-excerpt">We have grated cheese in the fridge. Michael wanted to open a new cheese and grate it himself. Reason says no, but giving kids experience says yes.</p>
+<div class="blog-tags">
+<span class="tag">Saying Yes</span>
+<span class="tag">Independence</span>
+<span class="tag">Learning</span>
+</div>
+</div>
 </div>
 
 :::

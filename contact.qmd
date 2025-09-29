@@ -1,0 +1,101 @@
+---
+title: "Contact"
+---
+
+::: {.contact-hero}
+<h1>Connect with Our Family</h1>
+<p class="lead">Questions about large family life? Want to share your own parenting moments? We'd love to hear from you!</p>
+:::
+
+::: {.contact-container}
+
+::: {.contact-grid}
+::: {.contact-info}
+### <i class="fas fa-heart"></i> Let's Connect
+
+Whether you have questions about managing a large family, want to share your own parenting story, or have ideas for future blog posts, we love connecting with other families on this beautiful, chaotic journey.
+
+::: {.contact-methods}
+::: {.contact-method}
+::: {.contact-icon}
+<i class="fas fa-envelope"></i>
+:::
+
+::: {.contact-details}
+#### Email
+[hello@thenext5minutes.com](mailto:hello@thenext5minutes.com)
+:::
+:::
+
+::: {.contact-method}
+::: {.contact-icon}
+<i class="fab fa-instagram"></i>
+:::
+
+::: {.contact-details}
+#### Instagram
+[@thenext5minutes](#){target="_blank"}
+:::
+:::
+
+::: {.contact-method}
+::: {.contact-icon}
+<i class="fab fa-facebook"></i>
+:::
+
+::: {.contact-details}
+#### Facebook
+[The Next 5 Minutes](#){target="_blank"}
+:::
+:::
+:::
+:::
+
+::: {.contact-form}
+### <i class="fas fa-paper-plane"></i> Send a Message
+
+::: {.message-form}
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" required>
+</div>
+
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+</div>
+
+<div class="form-group">
+<label for="subject">Subject</label>
+<select id="subject" name="subject">
+<option value="general">General Inquiry</option>
+<option value="feedback">Post Feedback</option>
+<option value="suggestion">Topic Suggestion</option>
+<option value="collaboration">Collaboration</option>
+<option value="other">Other</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" placeholder="Share your thoughts..." required></textarea>
+</div>
+
+<button type="submit" class="submit-btn">
+<i class="fas fa-paper-plane"></i> Send Message
+</button>
+</form>
+:::
+:::
+:::
+
+:::
+
+::: {.response-note}
+::: {.note-container}
+#### <i class="fas fa-clock"></i> Response Time
+
+We aim to respond to all messages within 24-48 hours. Thank you for your patience!
+:::
+:::

@@ -1,0 +1,112 @@
+---
+title: "About the Authors"
+---
+
+::: {.authors-hero}
+::: {.authors-intro}
+# Meet Zac & Kathryn Napierski
+
+Parents of 12, believers in the beauty of big families, and experts in finding joy in the next 5 minutes.
+:::
+:::
+
+::: {.authors-container}
+
+::: {.authors-grid}
+::: {.author-card}
+::: {.author-photo}
+![The Napierski Family](images/family.jpg){.author-image alt="The Napierski Family"}
+:::
+
+::: {.author-content}
+## <i class="fas fa-heart"></i> Zac & Kathryn Napierski
+
+*Parents of 12, Adventure Seekers, Joy Finders*
+
+We're Zac and Kathryn, and we're the parents behind "The Next 5 Minutes." Between the two of us, we've learned that raising 12 children isn't about having superhuman abilities or perfect systems—it's about showing up in the small moments and finding joy in the beautiful chaos.
+
+**Zac** brings his love of adventure to fatherhood, turning ordinary Tuesday afternoons into mini-adventures and helping our children see magic in their own backyard. Whether he's teaching kids to ride bikes, planning family camping trips, or just being present during evening chaos, he's mastered the art of finding wonder in everyday moments.
+
+**Kathryn** is the steady heartbeat of our household, somehow managing to keep track of 12 different schedules, preferences, and personalities while maintaining her sanity and sense of humor. She has an uncanny ability to find joy in the smallest moments—a successful dinner where everyone actually ate what was served, a spontaneous dance party in the kitchen, or five minutes of quiet with morning coffee.
+
+Together, we've learned that love multiplies, not divides. There's always room for one more at the dinner table (even if some of us are eating standing up), and the secret to managing a large family isn't perfect organization—it's being present in the next 5 minutes.
+
+::: {.author-specialties}
+#### Our Family Specialties:
+- Adventure planning (even if it's just to the grocery store)
+- Finding lost socks (and matching them correctly)
+- Emergency snack deployment
+- Reading the mood of the house in 0.3 seconds
+- Creating magic from chaos
+- Bedtime story voices that actually work
+- Finding teachable moments in spilled milk
+:::
+:::
+:::
+:::
+
+:::
+
+::: {.family-story}
+::: {.story-container}
+## <i class="fas fa-home"></i> Our Family Story
+
+::: {.story-content}
+::: {.story-text}
+When we first got married, we thought we might have 2 or 3 kids. Maybe 4 if we were feeling adventurous. Twelve certainly wasn't on our radar! But life has a funny way of surprising you, and each child that joined our family brought their own special brand of joy, chaos, and love.
+
+Somewhere around child number 7, we realized we were no longer a "normal" family, and we embraced it completely. We learned that love multiplies, not divides. We discovered that there's always room for one more at the dinner table, even if it means some of us are eating standing up. And we found that the secret to managing a large family isn't perfect organization (though it helps)—it's being present in the next 5 minutes.
+
+This blog was born from all those moments when people ask us, "How do you do it?" The answer isn't complicated systems or superhuman abilities. It's found in the small moments: the way morning coffee tastes better when stolen quietly before everyone wakes up, how bedtime stories become more precious when you know there are only so many years left for them, and the joy that comes from watching your children grow into the people they're meant to be.
+:::
+
+::: {.family-stats}
+### The Numbers
+
+::: {.stats-grid}
+::: {.stat}
+**12**
+
+Amazing Kids
+:::
+
+::: {.stat}
+**∞**
+
+Love to Give
+:::
+
+::: {.stat}
+**5**
+
+Minutes to Find Joy
+:::
+
+::: {.stat}
+**2**
+
+Grateful Parents
+:::
+:::
+:::
+:::
+:::
+:::
+
+::: {.authors-mission}
+::: {.mission-container}
+## <i class="fas fa-star"></i> Why We Share
+
+We write this blog not because we have it all figured out (spoiler alert: we definitely don't), but because we've learned that parenting—whether you have 1 child or 12—is about showing up in the small moments. It's about finding joy in the chaos, peace in the pause, and love in the everyday.
+
+If our stories can help another parent feel less alone in the beautiful mess of raising children, or if they can remind someone to look for the magic in their next 5 minutes, then we've succeeded.
+
+Welcome to our family. We're so glad you're here.
+
+::: {.signature}
+*With love and coffee stains,*
+
+**Zac & Kathryn**
+:::
+:::
+:::
