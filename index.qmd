@@ -51,20 +51,16 @@ title: "The Next 5 Minutes"
 ::: {.family-stats-section}
 <div class="stats-container fade-in">
 <div class="stat-item fade-in stagger-1">
-<div class="stat-number" data-target="12">0</div>
+<div class="stat-number" data-target="12">12</div>
 <div class="stat-label">Children</div>
 </div>
 <div class="stat-item fade-in stagger-2">
-<div class="stat-number" data-target="25">0</div>
+<div class="stat-number" data-target="25">25</div>
 <div class="stat-label">Years of Parenting</div>
 </div>
 <div class="stat-item fade-in stagger-3">
-<div class="stat-number" data-target="500">0</div>
+<div class="stat-number" data-target="500">100</div>
 <div class="stat-label">Stories to Share</div>
-</div>
-<div class="stat-item fade-in stagger-4">
-<div class="stat-number" data-target="1">0</div>
-<div class="stat-label">Learning Journey</div>
 </div>
 </div>
 :::
