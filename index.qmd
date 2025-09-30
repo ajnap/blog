@@ -11,6 +11,7 @@ title: "The Next 5 Minutes"
     loop
     playsinline
     class="hero-video"
+    id="heroVideo"
     aria-label="Relaxing beach waves background video"
     preload="metadata"
     poster="images/beach-waves-poster.jpg">
@@ -18,7 +19,12 @@ title: "The Next 5 Minutes"
     <source src="images/beach-waves.webm" type="video/webm">
     <img src="images/beach-waves-fallback.jpg" alt="Peaceful beach waves" aria-describedby="video-description">
   </video>
-  <div class="video-overlay"></div>
+  <div class="video-overlay" id="videoOverlay"></div>
+  <div class="video-controls">
+    <button id="videoToggle" class="video-toggle-btn" aria-label="Pause/Play video">
+      <i class="fas fa-pause"></i>
+    </button>
+  </div>
   <span id="video-description" class="sr-only">A looping video of gentle ocean waves lapping against a peaceful beach, providing a calming background for the site.</span>
 </div>
 
@@ -42,6 +48,27 @@ title: "The Next 5 Minutes"
 
 :::
 
+::: {.family-stats-section}
+<div class="stats-container fade-in">
+<div class="stat-item fade-in stagger-1">
+<div class="stat-number" data-target="12">0</div>
+<div class="stat-label">Children</div>
+</div>
+<div class="stat-item fade-in stagger-2">
+<div class="stat-number" data-target="25">0</div>
+<div class="stat-label">Years of Parenting</div>
+</div>
+<div class="stat-item fade-in stagger-3">
+<div class="stat-number" data-target="500">0</div>
+<div class="stat-label">Stories to Share</div>
+</div>
+<div class="stat-item fade-in stagger-4">
+<div class="stat-number" data-target="1">0</div>
+<div class="stat-label">Learning Journey</div>
+</div>
+</div>
+:::
+
 <hr class="section-divider">
 
 ## Recent Stories from Our Family
@@ -49,11 +76,11 @@ title: "The Next 5 Minutes"
 ::: {.blog-preview}
 
 <div class="blog-grid">
-<div class="blog-card">
+<div class="blog-card enhanced-card slide-in-left stagger-1">
 <img src="images/dad-beach.jpg" alt="Dad playing at the beach" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-sparkles"></i> There Are Sprinkles Glued to My Custom Table</h3>
-<span class="blog-date">Coming Soon</span>
+<span class="blog-date">3 min read</span>
 </div>
 <p class="blog-excerpt">There are sprinkles glued on my custom built table for 14 because we love to do arts and crafts. Sometimes we need to realize that a messy life is proof that we tried, we created, we loved, we lived!</p>
 <div class="blog-tags">
@@ -61,13 +88,17 @@ title: "The Next 5 Minutes"
 <span class="tag">Creativity</span>
 <span class="tag">Real Life</span>
 </div>
+<div class="card-hover-content">
+<p class="preview-text">"The table I spent months designing and building now has permanent rainbow sprinkles embedded in the wood grain. And you know what? I wouldn't change a thing..."</p>
+<a href="blog.qmd" class="read-more-cta">Read Full Story <i class="fas fa-arrow-right"></i></a>
+</div>
 </div>
 
-<div class="blog-card">
+<div class="blog-card enhanced-card fade-in stagger-2">
 <img src="images/family-niagrafalls.jpg" alt="Family at Niagara Falls" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-heart"></i> "You're Missing Making a Memory"</h3>
-<span class="blog-date">Coming Soon</span>
+<span class="blog-date">4 min read</span>
 </div>
 <p class="blog-excerpt">Making lasagna when the spirit prompted me "you're missing making a memory." Calling to the children I said, "who wants to make lasagna?" It was messy, it was a memory-making dinner.</p>
 <div class="blog-tags">
@@ -75,13 +106,17 @@ title: "The Next 5 Minutes"
 <span class="tag">Presence</span>
 <span class="tag">Kitchen Chaos</span>
 </div>
+<div class="card-hover-content">
+<p class="preview-text">"Sometimes the Spirit whispers in the most ordinary moments. I almost missed it, focused on my own agenda. But then I heard it clearly: 'You're missing making a memory.'"</p>
+<a href="blog.qmd" class="read-more-cta">Read Full Story <i class="fas fa-arrow-right"></i></a>
+</div>
 </div>
 
-<div class="blog-card">
+<div class="blog-card enhanced-card slide-in-right stagger-3">
 <img src="images/dad-snowman.jpg" alt="Dad building snowman" class="blog-image">
 <div class="blog-card-header">
 <h3><i class="fas fa-question-circle"></i> Why Do I Say Yes?</h3>
-<span class="blog-date">Coming Soon</span>
+<span class="blog-date">2 min read</span>
 </div>
 <p class="blog-excerpt">We have grated cheese in the fridge. Michael wanted to open a new cheese and grate it himself. Reason says no, but giving kids experience says yes.</p>
 <div class="blog-tags">
@@ -89,8 +124,153 @@ title: "The Next 5 Minutes"
 <span class="tag">Independence</span>
 <span class="tag">Learning</span>
 </div>
+<div class="card-hover-content">
+<p class="preview-text">"Logic said no. Efficiency said no. But my heart said yes. This is the beautiful tension of parenting—choosing growth over convenience, every single day."</p>
+<a href="blog.qmd" class="read-more-cta">Read Full Story <i class="fas fa-arrow-right"></i></a>
+</div>
 </div>
 </div>
 
 :::
 
+::: {.newsletter-cta-section}
+<div class="newsletter-container fade-in">
+<h2><i class="fas fa-envelope"></i> Join Our Learning Journey</h2>
+<p class="newsletter-subtitle">Get weekly stories of family life, parenting wins (and fails), and lessons learned along the way. Real stories from real parents.</p>
+
+<form class="newsletter-form" action="#" method="post">
+<div class="form-group-inline">
+<input type="email" placeholder="Enter your email" class="newsletter-email" required>
+<button type="submit" class="newsletter-btn">
+<i class="fas fa-paper-plane"></i> Join Us
+</button>
+</div>
+<p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+</form>
+
+<div class="cta-buttons">
+<a href="authors.qmd" class="cta-secondary">
+<i class="fas fa-users"></i> Meet Our Family
+</a>
+<a href="blog.qmd" class="cta-secondary">
+<i class="fas fa-book-open"></i> Read All Stories
+</a>
+</div>
+</div>
+:::
+
+<script>
+// Video control functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('heroVideo');
+    const toggleBtn = document.getElementById('videoToggle');
+    const overlay = document.getElementById('videoOverlay');
+
+    if (video && toggleBtn) {
+        toggleBtn.addEventListener('click', function() {
+            if (video.paused) {
+                video.play();
+                toggleBtn.innerHTML = '<i class="fas fa-pause"></i>';
+                toggleBtn.setAttribute('aria-label', 'Pause video');
+            } else {
+                video.pause();
+                toggleBtn.innerHTML = '<i class="fas fa-play"></i>';
+                toggleBtn.setAttribute('aria-label', 'Play video');
+                // Darken overlay when paused for better text readability
+                if (overlay) {
+                    overlay.style.background = 'linear-gradient(135deg, rgba(168, 216, 255, 0.6) 0%, rgba(245, 233, 220, 0.5) 50%, rgba(0, 0, 0, 0.5) 100%)';
+                }
+            }
+        });
+
+        // Reset overlay when video plays
+        video.addEventListener('play', function() {
+            if (overlay) {
+                overlay.style.background = 'linear-gradient(135deg, rgba(168, 216, 255, 0.4) 0%, rgba(245, 233, 220, 0.3) 50%, rgba(0, 0, 0, 0.3) 100%)';
+            }
+        });
+    }
+
+    // Animated counters for stats
+    function animateCounter(element) {
+        const target = parseInt(element.getAttribute('data-target'));
+        const duration = 2000; // 2 seconds
+        const start = 0;
+        const increment = target / (duration / 16); // 60fps
+        let current = start;
+
+        const updateCounter = () => {
+            current += increment;
+            if (current < target) {
+                element.textContent = Math.floor(current);
+                requestAnimationFrame(updateCounter);
+            } else {
+                element.textContent = target;
+            }
+        };
+
+        updateCounter();
+    }
+
+    // Intersection Observer for triggering animations when stats come into view
+    const statNumbers = document.querySelectorAll('.stat-number');
+    if (statNumbers.length > 0) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && entry.target.textContent === '0') {
+                    animateCounter(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        statNumbers.forEach(stat => observer.observe(stat));
+    }
+
+    // Scroll animations
+    const observeElements = (elements) => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        elements.forEach(element => observer.observe(element));
+    };
+
+    // Apply scroll animations to different element types
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const slideLeftElements = document.querySelectorAll('.slide-in-left');
+    const slideRightElements = document.querySelectorAll('.slide-in-right');
+
+    if (fadeElements.length > 0) observeElements(fadeElements);
+    if (slideLeftElements.length > 0) observeElements(slideLeftElements);
+    if (slideRightElements.length > 0) observeElements(slideRightElements);
+
+    // Newsletter form enhancement
+    const newsletterForm = document.querySelector('.newsletter-form');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('.newsletter-email').value;
+            const button = this.querySelector('.newsletter-btn');
+
+            if (email) {
+                // Simulate signup process
+                button.innerHTML = '<i class="fas fa-check"></i> Thank You!';
+                button.style.background = '#28a745';
+
+                setTimeout(() => {
+                    button.innerHTML = '<i class="fas fa-paper-plane"></i> Join Us';
+                    button.style.background = '';
+                    this.reset();
+                }, 3000);
+            }
+        });
+    }
+});
+</script>
