@@ -1,141 +1,117 @@
 ---
-title: "Blog"
+title: "Stories"
 ---
 
 ::: {.blog-header}
 <h1>Stories from Our Family</h1>
-<p class="lead">Documenting our journey of learning and growing while raising 12 children - sharing both victories and lessons learned.</p>
+<p class="lead">Documenting our journey of learning and growing while raising 12 children — sharing both victories and lessons learned.</p>
 :::
 
 ::: {.blog-container}
 
-::: {.blog-grid}
-::: {.blog-card}
-![Dad playing at the beach](images/dad-beach.jpg){.blog-image alt="Dad playing at the beach"}
+<div class="blog-grid">
 
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-sparkles"></i> There Are Sprinkles Glued to My Custom Table
-**Coming Soon** {.blog-date}
-:::
+<div class="blog-card">
+<img src="images/dad-beach.jpg" alt="Father and child at the beach" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Embracing Imperfection</span>
+<h3>There Are Sprinkles Glued to My Custom Table</h3>
+</div>
+<p class="blog-excerpt">There are sprinkles glued on my custom built table for 14 because we love to do arts and crafts. There's old tape on my walls because we decorate with crepe paper for birthdays. Sometimes we need to realize that a messy life is proof that we tried, we created, we loved, we lived.</p>
+<div class="blog-tags">
+<span class="tag">Creativity</span>
+<span class="tag">Real Life</span>
+<span class="tag">Letting Go</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-There are sprinkles glued on my custom built table for 14 because we love to do arts and crafts. There's old tape on my walls because we decorate with crepe paper for birthdays. Sometimes we need to realize that a messy life is proof that we tried, we created, we loved, we lived!
+<div class="blog-card">
+<img src="images/family-niagrafalls.jpg" alt="Family at Niagara Falls" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Being Present</span>
+<h3>"You're Missing Making a Memory"</h3>
+</div>
+<p class="blog-excerpt">Making lasagna when the spirit prompted me "you're missing making a memory." Calling to the children I said, "who wants to make lasagna?" Cheese and sauce and noodles flew everywhere. It was messy, it was a memory-making dinner.</p>
+<div class="blog-tags">
+<span class="tag">Memory Making</span>
+<span class="tag">Presence</span>
+<span class="tag">Kitchen Chaos</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-::: {.blog-tags}
-[Embracing Mess]{.tag} [Creativity]{.tag} [Real Life]{.tag}
-:::
+<div class="blog-card">
+<img src="images/dad-snowman.jpg" alt="Father building snowman with children" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Saying Yes</span>
+<h3>Why Do I Say Yes?</h3>
+</div>
+<p class="blog-excerpt">We have grated cheese in the fridge. Michael wanted to open a new cheese and grate it himself. Reason says no, but giving kids experience says yes. The beautiful tension between efficiency and growth.</p>
+<div class="blog-tags">
+<span class="tag">Independence</span>
+<span class="tag">Learning</span>
+<span class="tag">Growth</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
+<div class="blog-card">
+<img src="images/family-newyork.jpg" alt="Family in New York" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Travel Wisdom</span>
+<h3>Knott's Game While Waiting in Line</h3>
+</div>
+<p class="blog-excerpt">Travel tips that actually work with 12 kids: frozen gogurts for coolers, involving kids in packing, and the games that save your sanity during long waits. Real solutions for real families.</p>
+<div class="blog-tags">
+<span class="tag">Travel Tips</span>
+<span class="tag">Large Family</span>
+<span class="tag">Practical Wisdom</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-::: {.blog-card}
-![Family at Niagara Falls](images/family-niagrafalls.jpg){.blog-image alt="Family at Niagara Falls"}
+<div class="blog-card">
+<img src="images/dad-pool.jpg" alt="Father at the pool with children" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Childhood</span>
+<h3>The Dirtier the Shirt, the Better</h3>
+</div>
+<p class="blog-excerpt">The dirtier the shirt at the end of the day the better — it shows we lived, we learned, we made mistakes, we loved each moment. A love letter to the beautiful mess of childhood.</p>
+<div class="blog-tags">
+<span class="tag">Perspective</span>
+<span class="tag">Play</span>
+<span class="tag">Growth</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-heart"></i> "You're Missing Making a Memory"
-**Coming Soon** {.blog-date}
-:::
+<div class="blog-card">
+<img src="images/family-stake.jpg" alt="Family portrait" class="blog-image">
+<div class="blog-card-header">
+<span class="blog-date">Intentional Parenting</span>
+<h3>Being at the Crossroads</h3>
+</div>
+<p class="blog-excerpt">Being at the crossroads for my children has different meaning to me than 10 years ago. It used to be physically present, now it's mentally present — not on phone, emails, media. The evolution of intentional parenting.</p>
+<div class="blog-tags">
+<span class="tag">Presence</span>
+<span class="tag">Technology</span>
+<span class="tag">Connection</span>
+</div>
+<a href="#" class="read-more-btn">Continue Reading</a>
+</div>
 
-Making lasagna when the spirit prompted me "you're missing making a memory." Calling to the children I said, "who wants to make lasagna?" Cheese and sauce and noodles flew everywhere. It was messy, it was a memory-making dinner.
-
-::: {.blog-tags}
-[Memory Making]{.tag} [Presence]{.tag} [Kitchen Chaos]{.tag}
-:::
-
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
-
-::: {.blog-card}
-![Dad building snowman](images/dad-snowman.jpg){.blog-image alt="Dad building snowman"}
-
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-question-circle"></i> Why Do I Say Yes?
-**Coming Soon** {.blog-date}
-:::
-
-We have grated cheese in the fridge. Michael wanted to open a new cheese and grate it himself. Reason says no, but giving kids experience says yes. The beautiful tension between efficiency and growth.
-
-::: {.blog-tags}
-[Saying Yes]{.tag} [Independence]{.tag} [Learning]{.tag}
-:::
-
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
-
-::: {.blog-card}
-![Family in New York](images/family-newyork.jpg){.blog-image alt="Family in New York"}
-
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-suitcase"></i> Knott's Game While Waiting in Line
-**Coming Soon** {.blog-date}
-:::
-
-Travel tips that actually work with 12 kids: frozen gogurts for coolers, involving kids in packing, and the games that save your sanity during long waits. Real solutions for real families.
-
-::: {.blog-tags}
-[Travel Tips]{.tag} [Large Family]{.tag} [Practical Wisdom]{.tag}
-:::
-
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
-
-::: {.blog-card}
-![Dad at the pool](images/dad-pool.jpg){.blog-image alt="Dad at the pool"}
-
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-home"></i> The Dirtier the Shirt, the Better
-**Coming Soon** {.blog-date}
-:::
-
-The dirtier the shirt at the end of the day the better—it shows we lived, we learned, we made mistakes, we loved each moment. A love letter to the beautiful mess of childhood.
-
-::: {.blog-tags}
-[Childhood]{.tag} [Perspective]{.tag} [Growth]{.tag}
-:::
-
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
-
-::: {.blog-card}
-![Family stake photo](images/family-stake.jpg){.blog-image alt="Family stake photo"}
-
-::: {.blog-content}
-::: {.blog-card-header}
-### <i class="fas fa-phone-slash"></i> Being at the Crossroads
-**Coming Soon** {.blog-date}
-:::
-
-Being at the crossroads for my children has different meaning to me than 10 years ago. It used to be physically present, now it's mentally present—not on phone, emails, media. The evolution of intentional parenting.
-
-::: {.blog-tags}
-[Intentional Parenting]{.tag} [Presence]{.tag} [Technology]{.tag}
-:::
-
-[Read More <i class="fas fa-arrow-right"></i>](#){.read-more-btn}
-:::
-:::
-:::
+</div>
 
 :::
 
 ::: {.newsletter-signup}
-::: {.newsletter-container}
-### <i class="fas fa-heart"></i> Join Our Family
-
-Get weekly stories and parenting insights delivered to your inbox. Real moments from our family to yours.
-
-::: {.signup-form}
-<input type="email" placeholder="Enter your email for family stories" class="email-input">
-<button type="submit" class="subscribe-btn">Join Us</button>
-:::
-:::
+<div class="newsletter-container">
+<h3>Join Our Family</h3>
+<p>Get weekly stories and parenting insights delivered to your inbox. Real moments from our family to yours.</p>
+<div class="signup-form">
+<input type="email" placeholder="Your email address" class="email-input">
+<button type="submit" class="subscribe-btn">Subscribe</button>
+</div>
+</div>
 :::
