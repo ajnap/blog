@@ -874,12 +874,35 @@ main > h2,
 /* App Page */
 .app-hero {
   text-align: center;
-  padding: var(--space-2xl) var(--space-lg);
-  background: var(--white);
+  padding: var(--space-3xl) var(--space-lg) var(--space-2xl);
+  background: linear-gradient(180deg, var(--white) 0%, var(--sand) 100%);
 }
 
 .app-intro h1 {
   font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: var(--space-sm);
+}
+
+.app-intro .lead {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-medium);
+  margin-bottom: var(--space-xs);
+}
+
+.app-intro .hero-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  max-width: 500px;
+  margin: 0 auto var(--space-lg);
+}
+
+.app-intro .hero-buttons {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .app-intro h1 i { display: none; }
@@ -1033,13 +1056,33 @@ main > h2,
 .feature {
   display: flex;
   gap: var(--space-md);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
   align-items: flex-start;
+  padding: var(--space-md);
+  background: var(--sand);
+  border-radius: var(--radius-md);
+  transition: transform 0.2s var(--ease-out), box-shadow 0.2s var(--ease-out);
+}
+
+.feature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44,95,124,0.08);
 }
 
 .feature-icon {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border-radius: var(--radius-md);
+}
+
+.feature-content {
+  flex: 1;
 }
 
 .feature i {
@@ -1050,13 +1093,15 @@ main > h2,
 
 .feature h4 {
   font-size: 1rem;
-  margin-bottom: var(--space-xs);
+  margin: 0 0 var(--space-xs);
+  color: var(--text-dark);
 }
 
 .feature p {
   font-size: 0.9rem;
   color: var(--text-medium);
   margin: 0;
+  line-height: 1.5;
 }
 
 /* Philosophy icons */

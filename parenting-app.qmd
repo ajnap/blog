@@ -1,147 +1,152 @@
 ---
 title: "Parenting App"
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        .quarto-title-block { display: none !important; }
+        </style>
 ---
 
-::: {.app-hero}
-<div class="app-intro">
-  <h1>The Next 5 Minutes App</h1>
-  <p class="lead">Parent Confidently with 5-Minute Connections</p>
-  <p class="hero-subtitle">Daily expert-backed activities, personalized to your child's age and interests.</p>
-  <div class="hero-buttons">
-    <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-primary btn-lg app-btn-purple">Get Started</a>
-    <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-outline-primary btn-lg">Try it Free</a>
+```{=html}
+<div class="app-hero">
+  <div class="app-intro">
+    <h1>The Next 5 Minutes App</h1>
+    <p class="lead">Parent Confidently with 5-Minute Connections</p>
+    <p class="hero-subtitle">Daily expert-backed activities, personalized to your child's age and interests.</p>
+    <div class="hero-buttons">
+      <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-primary btn-lg app-btn-purple">Get Started</a>
+      <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-outline-primary btn-lg">Try it Free</a>
+    </div>
   </div>
 </div>
-:::
 
-::: {.app-preview}
+<div class="app-preview">
+  <div class="preview-container">
+    <div class="app-mockup">
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="app-interface-new">
+            <div class="app-header-mock">
+              <span class="app-logo-heart">&#10084;&#65039;</span> The Next 5 Minutes
+            </div>
+            <div class="app-tagline">Parent Confidently with<br><span class="highlight-text">5-Minute</span> Connections</div>
+            <div class="app-characters">
+              <span>&#128302;</span><span>&#127807;</span><span>&#127800;</span><span>&#128522;</span><span>&#128302;</span>
+            </div>
+            <div class="app-cta-mock">Get Started &#8594;</div>
+            <div class="app-social-proof">Join 500+ parents building stronger bonds</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-::: {.preview-container}
+    <div class="app-description">
+      <h2>Parenting Made Mindful</h2>
+      <p>The only parenting app you'll ever need. We bring the heart of our blog right to your fingertips—daily activities personalized to your child's age and interests. Smarter than every baby book.</p>
 
-::: {.app-mockup}
-::: {.phone-frame}
-::: {.phone-screen}
-<div class="app-interface-new">
-  <div class="app-header-mock">
-    <span class="app-logo-heart">❤️</span> The Next 5 Minutes
+      <div class="try-app-cta">
+        <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-primary btn-lg app-btn-purple">Get Started Free &#8594;</a>
+        <p class="cta-note">Join 500+ parents building stronger bonds</p>
+      </div>
+
+      <h3>What You'll Get:</h3>
+
+      <div class="features-list">
+        <div class="feature">
+          <span class="feature-icon">&#128161;</span>
+          <div class="feature-content">
+            <h4>Daily Moment Prompts</h4>
+            <p>Simple suggestions to help you be present with your children, even on the busiest days.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">&#9201;&#65039;</span>
+          <div class="feature-content">
+            <h4>5-Minute Activities</h4>
+            <p>Quick, meaningful activities you can do with your kids when you have just a few minutes to connect.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">&#10084;&#65039;</span>
+          <div class="feature-content">
+            <h4>Joy Reminders</h4>
+            <p>Gentle notifications to help you notice the small, beautiful moments happening right now.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">&#128106;</span>
+          <div class="feature-content">
+            <h4>Family Connection Ideas</h4>
+            <p>Creative ways to strengthen bonds with each child, whether you have 1 or 12 kids at home.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">&#9749;</span>
+          <div class="feature-content">
+            <h4>Parent Self-Care</h4>
+            <p>Because taking care of yourself isn't selfish—it's necessary for being the parent your children need.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="feature-icon">&#128214;</span>
+          <div class="feature-content">
+            <h4>Memory Keeper</h4>
+            <p>Simple ways to capture and remember the precious moments before they slip away.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="app-tagline">Parent Confidently with<br><span class="highlight-text">5-Minute</span> Connections</div>
-  <div class="app-characters">
-    <span>🔮</span><span>🌿</span><span>🌸</span><span>😊</span><span>🔮</span>
+</div>
+
+<div class="app-philosophy">
+  <div class="philosophy-container">
+    <h2>Our App Philosophy</h2>
+
+    <div class="philosophy-grid">
+      <div class="philosophy-card">
+        <span class="philosophy-icon">&#127807;</span>
+        <h3>Simple, Not Overwhelming</h3>
+        <p>Parenting apps shouldn't add stress to your life. Ours is clean, simple, and focused on what matters most.</p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="philosophy-icon">&#128106;</span>
+        <h3>Real Families, Real Life</h3>
+        <p>Built by parents who understand that life with kids is messy, unpredictable, and absolutely beautiful.</p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="philosophy-icon">&#9200;</span>
+        <h3>Quality Over Quantity</h3>
+        <p>We believe 5 minutes of presence is worth more than an hour of distraction. Every feature serves that goal.</p>
+      </div>
+
+      <div class="philosophy-card">
+        <span class="philosophy-icon">&#128522;</span>
+        <h3>Joy in the Journey</h3>
+        <p>Parenting isn't about perfection—it's about connection, love, and finding joy in the beautiful chaos.</p>
+      </div>
+    </div>
   </div>
-  <div class="app-cta-mock">Get Started →</div>
-  <div class="app-social-proof">Join 500+ parents building stronger bonds</div>
-</div>
-:::
-:::
-:::
-
-::: {.app-description}
-## Parenting Made Mindful
-
-The only parenting app you'll ever need. We bring the heart of our blog right to your fingertips—daily activities personalized to your child's age and interests. Smarter than every baby book.
-
-<div class="try-app-cta">
-  <a href="https://5app-nu.vercel.app/" target="_blank" class="btn btn-primary btn-lg">Get Started Free →</a>
-  <p class="cta-note">Join 500+ parents building stronger bonds</p>
 </div>
 
-### What You'll Get:
+<div class="contact-developers">
+  <div class="contact-container">
+    <h2>Have Ideas or Feedback?</h2>
+    <p>We'd love to hear what features would help your family the most. This app is being built for real parents with real needs.</p>
 
-::: {.features-list}
-::: {.feature}
-<span class="feature-icon">💡</span>
-
-#### Daily Moment Prompts
-Simple suggestions to help you be present with your children, even on the busiest days.
-:::
-
-::: {.feature}
-<span class="feature-icon">⏱️</span>
-
-#### 5-Minute Activities
-Quick, meaningful activities you can do with your kids when you have just a few minutes to connect.
-:::
-
-::: {.feature}
-<span class="feature-icon">❤️</span>
-
-#### Joy Reminders
-Gentle notifications to help you notice the small, beautiful moments happening right now.
-:::
-
-::: {.feature}
-<span class="feature-icon">👨‍👩‍👧‍👦</span>
-
-#### Family Connection Ideas
-Creative ways to strengthen bonds with each child, whether you have 1 or 12 kids at home.
-:::
-
-::: {.feature}
-<span class="feature-icon">☕</span>
-
-#### Parent Self-Care
-Because taking care of yourself isn't selfish—it's necessary for being the parent your children need.
-:::
-
-::: {.feature}
-<span class="feature-icon">📖</span>
-
-#### Memory Keeper
-Simple ways to capture and remember the precious moments before they slip away.
-:::
-:::
-:::
-
-:::
-:::
-
-::: {.app-philosophy}
-::: {.philosophy-container}
-## Our App Philosophy
-
-::: {.philosophy-grid}
-::: {.philosophy-card}
-<span class="philosophy-icon">🌿</span>
-
-### Simple, Not Overwhelming
-Parenting apps shouldn't add stress to your life. Ours is clean, simple, and focused on what matters most.
-:::
-
-::: {.philosophy-card}
-<span class="philosophy-icon">👨‍👩‍👧</span>
-
-### Real Families, Real Life
-Built by parents who understand that life with kids is messy, unpredictable, and absolutely beautiful.
-:::
-
-::: {.philosophy-card}
-<span class="philosophy-icon">⏰</span>
-
-### Quality Over Quantity
-We believe 5 minutes of presence is worth more than an hour of distraction. Every feature serves that goal.
-:::
-
-::: {.philosophy-card}
-<span class="philosophy-icon">😊</span>
-
-### Joy in the Journey
-Parenting isn't about perfection—it's about connection, love, and finding joy in the beautiful chaos.
-:::
-:::
-:::
-:::
-
-::: {.contact-developers}
-::: {.contact-container}
-## Have Ideas or Feedback?
-
-We'd love to hear what features would help your family the most. This app is being built for real parents with real needs.
-
-::: {.contact-buttons}
-[Share Your Ideas](contact.qmd){.btn .btn-primary}
-
-[Email the Developers](mailto:app@thenext5minutes.com){.btn .btn-outline-primary}
-:::
-:::
-:::
+    <div class="contact-buttons">
+      <a href="contact.html" class="btn btn-primary">Share Your Ideas</a>
+      <a href="mailto:app@thenext5minutes.com" class="btn btn-outline-primary">Email the Developers</a>
+    </div>
+  </div>
+</div>
+```
